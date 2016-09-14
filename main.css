@@ -1,0 +1,197 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.main-header {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-05.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.marketplace {
+  font-size: 33px;
+  font-weight: 900;
+  border: 4px solid white;
+  padding: 14px ;
+  width: 85vw;
+  margin: 0 auto;
+  position: relative;
+}
+.by-invision {
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'open sans', sans-serif;
+  padding: 20px;
+  position: relative;
+}
+.created-by {
+  bottom: 15px;
+  left: 25%;
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+}
+.image-container {
+  width: 93%;
+  margin: auto;
+  padding-top: 8px;
+}
+.image-container img {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  width: 100%;
+}
+.comingsoon-container {
+  margin: 50px auto;
+  width: 80%;
+}
+.new-styles {
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.first-to {
+  text-align: center;
+  font-size: 15px;
+  color: #898989;
+  padding-bottom: 20px;
+}
+.email-container {
+  width: 100%;
+  margin: auto;
+}
+.email {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #898989;
+  text-transform: uppercase;
+  text-align: center;
+}
+.email:focus {
+  outline: none;
+}
+.submit {
+  font-family: "open sans";
+  background: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+.submit:focus {
+  outline: none;
+}
+.footer-container {
+  width: 100%;
+  margin: auto;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.sponsor {
+  padding-top: 150px;
+  padding-bottom: 250px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.marketplace-b {
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.by-invision-b {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+.links p {
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+.social-media img {
+  width:80px;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+}
+.adress {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: #8D8D8D;
+  padding-bottom: 150px;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  padding: 30px;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  color: #8D8D8D;
+  background: #1A1A1A;
+  bottom: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+footer {
+  margin-bottom: 10px;
+}
+.foot-butts {
+  padding-top: 20px;
+}
+.see-why:focus {
+  outline: none;
+}
+.see-why {
+  display: inline-block;
+  padding: 5px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #8D8D8D;
+  background: #1A1A1A;
+  margin: 10px auto;
+  border: 1px solid #8D8D8D;
+}
+.get-started:focus {
+  outline: none;
+}
+.get-started {
+  display: inline-block;
+  padding: 5px;
+  letter-spacing: 2px;
+  /*justify-content: space-between;*/
+  width: 65%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #FF3366;
+  background: #1A1A1A;
+  margin: 10px 5px;
+  border: 1px solid #FF3366;
+}
